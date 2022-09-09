@@ -3,7 +3,7 @@ package rebecca.auth.server.discord
 import com.itsradiix.DiscordWebHookMessage
 import com.itsradiix.embed.Embed
 
-const val WEBHOOK_URL = "https://discordapp.com/api/webhooks/983916418900844566/fEUuWUTmtQGuVIiPaV9lP07usSy0me6i3yAHQHOf8xDSQ57N5xXRk9LMKNZ-GesN0WPM"
+const val WEBHOOK_URL = ""
 
 fun confirmationMessage(discordId: String, key: String): DiscordWebHookMessage = DiscordWebHookMessage.Builder()
     .username("Key Confirmation")
